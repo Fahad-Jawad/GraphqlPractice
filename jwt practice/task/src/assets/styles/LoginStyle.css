@@ -1,0 +1,43 @@
+.login-card {
+    background-color: white;
+    width: 500px;height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(100, 148, 237, 0.451);
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-card h2 {
+    text-align: center;
+    color: cornflowerblue;
+  }
+
+  .login-card input[type="text"],
+  .login-card input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: 5% auto;
+    color: cornflowerblue;
+
+    border: 2px solid cornflowerblue;
+    border-color: cornflowerblue;
+  }
+
+  .login-card button {
+    width: 30%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .login-card button:hover {
+    background-color: royalblue;
+  }
